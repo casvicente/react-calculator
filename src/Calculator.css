@@ -1,0 +1,23 @@
+.Calculator {
+    display: grid;
+    grid-template-columns: min-content;
+}
+
+.Display {
+    text-align: right;
+}
+
+
+.Keypad {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Numpad {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+}
+
+.Operators {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+}
