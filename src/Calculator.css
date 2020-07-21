@@ -10,14 +10,5 @@
 
 .Keypad {
     display: grid;
-    grid-template-columns: auto auto;
-}
-.Numpad {
-    display: grid;
-    grid-template-columns: repeat(3, min-content);
-}
-
-.Operators {
-    display: grid;
-    grid-template-columns: repeat(2, min-content);
+    grid-template-columns: repeat(5, min-content);
 }
