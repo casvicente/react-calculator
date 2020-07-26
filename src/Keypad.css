@@ -1,0 +1,4 @@
+.Keypad {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+}
